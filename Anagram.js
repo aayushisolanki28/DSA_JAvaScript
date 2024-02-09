@@ -25,3 +25,5 @@ function isAnagram(string1,string2){
 }
 
 console.log(isAnagram('hello','llhoe'))
+//Alternate method
+//return s1.split("").sort().join("") === s2.split("").sort().join("");
